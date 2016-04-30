@@ -1,0 +1,29 @@
+{
+  "name": "thoughts",
+  "version": "1.0.0",
+  "description": "Provides random thoughts with corresponding authors",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirajpandkar/thought-of-the-day.git"
+  },
+  "keywords": [
+    "random",
+    "thought",
+    "of",
+    "the",
+    "day"
+  ],
+  "author": "Niraj Pandkar <niraj.pandkar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nirajpandkar/thought-of-the-day/issues"
+  },
+  "homepage": "https://github.com/nirajpandkar/thought-of-the-day#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
