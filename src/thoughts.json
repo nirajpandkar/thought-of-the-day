@@ -1,6 +1,10 @@
 [
-  "This is the first thoughts",
-  "The second thoughts",
-  "A thought again",
-  "Another thought"
+  {
+    "author":"Steve Jobs",
+    "thought":"Design is not just what it looks like and feels like. Design is how it works"
+  },
+  {
+    "author":"Anonymous",
+    "thought":"Make hay while the sun shines"
+  }
 ]

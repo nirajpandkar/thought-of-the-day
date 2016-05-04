@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/nirajpandkar/thought-of-the-day#readme",
   "dependencies": {
+    "unique-random": "1.0.0",
     "unique-random-array": "1.0.0"
   }
 }
