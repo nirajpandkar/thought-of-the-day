@@ -1,10 +1,50 @@
-[
-  {
-    "author":"Steve Jobs",
-    "thought":"Design is not just what it looks like and feels like. Design is how it works"
-  },
-  {
-    "author":"Anonymous",
-    "thought":"Make hay while the sun shines"
-  }
-]
+{
+  "startup": [
+    {
+      "author": "Sachin and Binny Bansal",
+      "thought": "The core of any business is to earn money. You have not done your job well until you find a stranger who is willing to open his/her wallet to give you money for the service/products that you are offering."
+    },
+    {
+      "author": "Bhavish Aggarwal",
+      "thought": "Go out and start up. It is the hardest thing to do. For me it was very hard. When I started, my parents thought I was going to become a travel agent. It was very hard to convince them that I was not."
+    },
+    {
+      "author": "Kunal Bahl",
+      "thought": "Scale is important for a startup. Think big, but take one day at a time."
+    },
+    {
+      "author": "Vijay Shekhar Sharma",
+      "thought": "Be so sharp that you cut"
+    },
+    {
+      "author": "Naveen Tewari",
+      "thought": "Entrepreneurship is all about how confident you are in changing something, because most of the people will not accept that change so go ahead and learn it."
+    },
+    {
+      "author": "Ritesh Agarwal",
+      "thought": "It is extremely important to build something that a 100 people absolutely love using rather than make something that a 1000 people would just, kind of, like."
+    },
+    {
+      "author": "Shashank ND",
+      "thought": "The goal has never been about being an entrepreneur or starting a company. It has always been about solving a problem we deeply care about."
+    },
+    {
+      "author": "Deepinder Goyal",
+      "thought": "The fundamental model of our business is that in mature markets we should make profits and they shouldn’t need any more outside money to grow."
+    },
+    {
+      "author": "Kunal Shah",
+      "thought": "If you fully accept the worst that can ever happen in your journey, fear won’t ever be an obstacle in starting-up."
+    },
+    {
+      "author": "Rahul Yadav",
+      "thought": "Life’s purpose is to be happy! So if you are happy, you are successful in life"
+    }
+  ],
+  "general": [
+    {
+      "author": "Niraj Pandkar",
+      "thought": "Work till you get what you want"
+    }
+  ]
+}
