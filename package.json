@@ -4,6 +4,7 @@
   "description": "Provides random thoughts with corresponding authors",
   "main": "src/index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,5 +29,12 @@
     "request": "2.72.0",
     "unique-random": "1.0.0",
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "commitizen": "2.8.1",
+    "cz-conventional-changelog": "1.1.6"
+  }
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
