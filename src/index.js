@@ -44,7 +44,6 @@ function tod_author(){
 
     });
 }
-var pls="Niraj";
 function tod_thought(){
     var myPromise = new Promise(function(resolve,reject){
         request('http://quotesondesign.com/api/3.0/api-3.0.json', function (error, response, body) {
@@ -66,11 +65,11 @@ function tod_thought(){
     myPromise.then(function(body){
         return JSON.parse(body);  //success
             }).then(function(parsedJSON){
-        pls = parsedJSON.quote;
+        console.log(parsedJSON.quote)
         }, function(err){
         console.log(err); //error
     });
 
 }
 
-// var lib = require("./src/index.js"); lib.buffer()
+// var lib = require("./src/index.js"); lib.tod_thought()
