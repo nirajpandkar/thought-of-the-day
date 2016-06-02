@@ -3,7 +3,7 @@ var allThoughts = require("./thoughts.json");
 var request = require('request');
 var Promise = require("promise");
 module.exports = {
-    random:console.log(uniqueRandomArray(allThoughts.startup)),
+    random:random(),
     all:allThoughts,
     particular:particular,
     tod_thought:tod_thought,
