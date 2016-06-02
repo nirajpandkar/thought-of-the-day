@@ -1,5 +1,6 @@
 {
   "name": "thoughts",
+  "version": "1.2.0",
   "description": "Provides random thoughts with corresponding authors",
   "main": "src/index.js",
   "scripts": {
