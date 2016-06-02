@@ -13,13 +13,21 @@ $ npm install --save thoughts
 
 ```js
 const lib = require('thoughts');
-var info = lib.random();
+var random = lib.random();
+var particular = lib.particular(3); //indexing starts from 0
 
-console.log(info.thought);
+console.log(random.thought);
 //=>If you fully accept the worst that can ever happen in your journey, fear won’t ever be an obstacle in starting-up.
 
-console.log(info.author);
+console.log(random.author);
 //=>Kunal Shah
+
+console.log(particular.thought);
+//=>Be so sharp that you cut
+
+console.log(particular.author);
+//=>Vijay Shekhar Sharma
+
 ```
 
 ## License
