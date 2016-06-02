@@ -4,11 +4,11 @@
 
 To do:
 
-1. Get basic functionality working properly
+1. random() should take category of thought as a parameter
 
-2. Find an appropriate quotes json api
+2. Find a way to build an internal thoughts json
 
-3. Add continuous integration
+3. Add code coverage
 
-4. Add code coverage
+4. Add more relevant tests 
 
