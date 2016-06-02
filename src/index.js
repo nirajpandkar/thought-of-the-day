@@ -11,7 +11,7 @@ function random(){
 }
 function particular(n){
     if(n<0 || n>=allThoughts.startup.length)
-        return "Wrong index";
+        return "Index out of bound";
     else if(n == null)
         return "Index required";
     else{
