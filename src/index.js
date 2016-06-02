@@ -3,7 +3,7 @@ var allThoughts = require("./thoughts.json");
 var request = require('request');
 var Promise = require("promise");
 module.exports = {
-    random:random(),
+    random:console.log(uniqueRandomArray(allThoughts.startup)),
     all:allThoughts,
     particular:particular,
     tod_thought:tod_thought,
@@ -11,15 +11,15 @@ module.exports = {
 };
 
 function random(){
-    return uniqueRandomArray(allThoughts.general);
+    return uniqueRandomArray(allThoughts.startup);
 }
 function particular(n){
-    if(n<0 || n>=allThoughts.general.length)
+    if(n<0 || n>=allThoughts.startup.length)
         return "Wrong index";
     else if(n == null)
         return "Index required";
     else{
-        return allThoughts.general[n];
+        return allThoughts.startup[n];
     }
 
 }
@@ -72,4 +72,4 @@ function tod_thought(){
 
 }
 
-// var lib = require("./src/index.js"); lib.tod_thought()
+// var lib = require("./src/index.js"); lib.random()
