@@ -1,15 +1,17 @@
 {
   "name": "thoughts",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Provides random thoughts with corresponding authors",
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/index.test.js -w",
+    "test:once": "mocha tests/index.test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nirajpandkar/thought-of-the-day.git"
+    "url": "https://github.com/nirajpandkar/thought-of-the-day.git"
   },
   "keywords": [
     "random",
@@ -31,9 +33,12 @@
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
+    "chai": "3.5.0",
     "commitizen": "2.8.1",
-    "cz-conventional-changelog": "1.1.6"
-  }
+    "cz-conventional-changelog": "1.1.6",
+    "mocha": "2.5.3",
+    "semantic-release": "^4.3.5"
+  },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
   }
