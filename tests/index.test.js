@@ -7,6 +7,12 @@ describe("thoughts",function(){
         it("should return an object with random quote and corresponding author",function(){
             var randomQuote = thoughts.random();
             expect(thoughts.all.startup).to.include(randomQuote);
+        });
+
+        it("should return a different object than the previous one every time",function(){
+            var prevRandomQuote = thoughts.random();
+            var newRandomQuote = thoughts.random();
+            expect(prevRandomQuote).to.be.not.equal(newRandomQuote);
         })
     });
 
