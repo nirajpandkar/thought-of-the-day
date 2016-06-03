@@ -20,6 +20,13 @@ describe("thoughts",function(){
         it("should return a particular object",function(){
             var particularQuote = thoughts.particular(3);
             expect(thoughts.all.startup[3]).to.be.equal(particularQuote);
+        });
+
+        it("should return an appropriate warning if correct parameter not given",function(){
+            var wrongIndex = thoughts.particular(-1);
+            var noIndex = thoughts.particular();
+            expect(wrongIndex).to.equal("Index out of bound");
+            expect(noIndex).to.equal("Index required");
         })
     })
 });
