@@ -1,6 +1,5 @@
 {
   "name": "thoughts",
-  "version": "1.2.1",
   "description": "Provides random thoughts with corresponding authors",
   "main": "src/index.js",
   "scripts": {
@@ -27,19 +26,22 @@
   },
   "homepage": "https://github.com/nirajpandkar/thought-of-the-day#readme",
   "dependencies": {
-    "promise": "7.1.1",
-    "request": "2.72.0",
-    "unique-random": "1.0.0",
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
     "chai": "3.5.0",
     "commitizen": "2.8.1",
     "cz-conventional-changelog": "1.1.6",
+    "ghooks": "1.2.1",
     "mocha": "2.5.3",
     "semantic-release": "^4.3.5"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
+  },
+  "config":{
+    "ghooks":{
+      "precommit":"npm run test:once"
+    }
   }
 }
