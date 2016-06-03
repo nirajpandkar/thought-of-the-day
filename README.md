@@ -34,13 +34,9 @@ console.log(particular.author);
 
 MIT © [Niraj Pandkar](https://github.com/nirajpandkar)
 
-To do:
+##To do:
 
 1. random() should take category of thought as a parameter
 
 2. Find a way to build an internal thoughts json
-
-3. Add code coverage
-
-4. Add more relevant tests 
 
