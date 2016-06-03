@@ -42,7 +42,7 @@
   },
   "config": {
     "ghooks": {
-      "precommit": "npm run test:once"
+      "pre-commit": "npm run test:once"
     }
   }
 }
