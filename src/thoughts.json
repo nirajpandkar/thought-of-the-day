@@ -1,4 +1,8 @@
 {
+  "categories":[
+    "startup",
+    "anonymous"
+  ],
   "startup": [
     {
       "author": "Sachin and Binny Bansal",
@@ -39,6 +43,40 @@
     {
       "author": "Rahul Yadav",
       "thought": "Life’s purpose is to be happy! So if you are happy, you are successful in life"
+    }
+  ],
+  "anonymous":[
+    {
+      "author": "Anonymous",
+      "thought": "Work till you get what you want"
+    },
+    {
+      "author": "Anonymous",
+      "thought": "Don't let the choice that you didn't make weigh you down."
+    },
+    {
+      "author": "Anonymous",
+      "thought": "I don't plan on being famous, but I do plan on living the dream."
+    },
+    {
+      "author": "Anonymous",
+      "thought": "Don't give up because things are hard, but work harder, when you think of giving up."
+    },
+    {
+      "author": "Anonymous",
+      "thought": "Be with people who know your VALUE, not your PRICE."
+    },
+    {
+      "author": "Anonymous",
+      "thought": "Sometimes the best discoveries are the result of simple observations"
+    },
+    {
+      "author": "Anonymous",
+      "thought": "Be the Motivation, not the Distraction"
+    },
+    {
+      "author": "Anonymous",
+      "thought": "If you are depressed, you are living in the past. If you are anxious, you are living in the future. If you are at peace, you are living in the present."
     }
   ]
 }
