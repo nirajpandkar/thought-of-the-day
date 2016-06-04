@@ -13,8 +13,9 @@ $ npm install --save thoughts
 
 ```js
 const lib = require('thoughts');
-var random = lib.random();
-var particular = lib.particular(3); //indexing starts from 0
+var random = lib.random();    // gives random object from any category
+var anotherRandom = lib.random("anonymous");  //gives random object from specified category
+var particular = lib.particular("anonymous",2);   //gives particular object from specified category
 
 console.log(random.thought);
 //=>If you fully accept the worst that can ever happen in your journey, fear won’t ever be an obstacle in starting-up.
@@ -22,13 +23,38 @@ console.log(random.thought);
 console.log(random.author);
 //=>Kunal Shah
 
+console.log(anotherRandom.thought);
+//=>Be with people who know your VALUE, not your PRICE.
+
+console.log(anotherRandom.author);
+//=>Anonymous
+
 console.log(particular.thought);
-//=>Be so sharp that you cut
+//=>I don't plan on being famous, but I do plan on living the dream.
 
 console.log(particular.author);
-//=>Vijay Shekhar Sharma
+//=>Anonymous
 
 ```
+
+## API
+
+### random(category)
+Returns a random object from specified category.[Categories listed below](#categories)
+
+Object has two properties - ```author``` and ```thought```
+
+### random()
+If used with no parameters(no category), it returns an object from any one of the categories.
+
+### particular(category,index)
+Returns a particular object from specified category. Need to refer to ```thoughts.json```.
+
+## Categories
+* startup
+* anonymous
+
+More categories and thoughts are going to be added. Currently finding out a way to enable users to contribute to the 'thoughts' list easily.
 
 ## License
 
@@ -36,7 +62,5 @@ MIT © [Niraj Pandkar](https://github.com/nirajpandkar)
 
 ##To do:
 
-1. random() should take category of thought as a parameter
-
-2. Find a way to build an internal thoughts json
+1. Find a way to build an internal thoughts json
 
