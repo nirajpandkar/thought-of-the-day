@@ -26,4 +26,3 @@ function particular(category,n){
         return allThoughts[category][n];
     }
 }
-//var lib = require("./src/index.js");lib.particular();
