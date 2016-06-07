@@ -61,7 +61,7 @@ More categories and thoughts are going to be added. Currently finding out a way 
 Contributing section will get its own space :P But for now, if anyone is having hard time with code coverage or failing tests, you could bypass the githooks by adding a simple flag `--no-verify`. 
 
 Example - 
-`git commit -m "some message" --no-verify` 
+`git commit --no-verify` 
 
 Though first you may want to file an issue so that we could solve the problem then and there. All the best!
 
