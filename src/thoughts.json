@@ -1,7 +1,8 @@
 {
   "categories":[
     "startup",
-    "anonymous"
+    "anonymous",
+    "motivation"
   ],
   "startup": [
     {
@@ -77,6 +78,48 @@
     {
       "author": "Anonymous",
       "thought": "If you are depressed, you are living in the past. If you are anxious, you are living in the future. If you are at peace, you are living in the present."
+    }
+  ],
+  "motivation":[
+    {
+      "author": "Muhammad Ali",
+      "thought": "I know where I'm going and I know the truth, and I don't have to be what you want me to be. I'm free to be what I want."
+    },
+    {
+      "author": "St. Jerome",
+      "thought": "Good, better, best. Never let it rest. 'Til your good is better and your better is best."
+    },
+    {
+      "author": "Mohammed Sekouty",
+      "thought": "Winners don't believe in justifications."
+    },
+    {
+      "author": "Chrisne Garnier",
+      "thought": "Never let the fear of the fall discourage you from the climb. There's beauty up there and it's worth the risk."
+    },
+    {
+      "author": "Bobby Roghubir",
+      "thought": "Be strong in all your undertakings, and adapt to your surroundings."
+    },
+    {
+      "author": "Samantha Storsberg",
+      "thought": "The classroom within is where the true learning takes place."
+    },
+    {
+      "author": "Anuj Somany",
+      "thought": "Success is not a journey; it's a destination called satisfaction."
+    },
+    {
+      "author": "Ravi Varma",
+      "thought": "There Is No Failure. It's Only Un-Finished Success."
+    },
+    {
+      "author": "Jordan Ricks",
+      "thought": "Luck is the chaperone of those who are unsure of what they want. Success is reserved for those who know."
+    },
+    {
+      "author": "Jerry Rice",
+      "thought": "Today I will do what others won't, so tomorrow I can accomplish what others can't."
     }
   ]
 }
