@@ -53,6 +53,7 @@ Returns a particular object from specified category. Need to refer to ```thought
 ## Categories
 * startup
 * anonymous
+* motivation
 
 More categories and thoughts are going to be added. Currently finding out a way to enable users to contribute to the 'thoughts' list easily.
 
@@ -72,4 +73,5 @@ MIT © [Niraj Pandkar](https://github.com/nirajpandkar)
 ##To do:
 
 1. Find a way to build an internal thoughts json
+2. Add a browser build
 
