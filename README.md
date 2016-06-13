@@ -55,16 +55,7 @@ Returns a particular object from specified category. Need to refer to ```thought
 * anonymous
 * motivation
 
-More categories and thoughts are going to be added. Currently finding out a way to enable users to contribute to the 'thoughts' list easily.
-
-## Contributing
-
-Contributing section will get its own space :P But for now, if anyone is having hard time with code coverage or failing tests, you could bypass the githooks by adding a simple flag `--no-verify`. 
-
-Example - 
-`git commit --no-verify` 
-
-Though first you may want to file an issue so that we could solve the problem then and there. All the best!
+More categories and thoughts are going to be added. Currently finding out a way to enable users to contribute to the 'thoughts' list easily. 
 
 ## License
 
