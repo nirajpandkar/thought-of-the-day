@@ -4,6 +4,8 @@
 
 > Provides random thoughts/quotes and corresponding authors.
 
+Implementation of this package in chrome extension - https://github.com/nirajpandkar/thoughts-chrome-extension
+ 
 ## Install
 
 ```
