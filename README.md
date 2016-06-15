@@ -5,7 +5,8 @@
 > Provides random thoughts/quotes and corresponding authors.
 
 Implementation of this package in chrome extension - https://github.com/nirajpandkar/thoughts-chrome-extension
- 
+
+Positive thought is a key ingredient of leading a happy and fulfilling life. All the worldwide leaders and speakers have always given us inspiring and motivational thoughts. I am thankful to all the known and unknown people for their thoughts in this library.
 ## Install
 
 ```
